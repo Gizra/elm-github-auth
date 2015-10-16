@@ -1,18 +1,13 @@
 module User where
 
-import Company exposing (..)
-import Config exposing (backendUrl)
 import Effects exposing (Effects, Never)
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (on, onClick, targetValue)
 import Http
 import Json.Decode as Json exposing ((:=))
-import Login exposing (..)
 import RouteHash exposing (HashUpdate)
-import Storage exposing (removeItem)
-import String exposing (length)
-import Task
+import Task exposing (Task)
 
 import Debug
 

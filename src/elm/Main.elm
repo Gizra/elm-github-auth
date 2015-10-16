@@ -25,10 +25,10 @@ port tasks =
 
 port routeTasks : Signal (Task () ())
 port routeTasks =
-    RouteHash.start
-        { prefix = RouteHash.defaultPrefix
-        , address = app.address
-        , models = app.model
-        , delta2update = App.delta2update
-        , location2action = App.location2action
-        }
+  RouteHash.start
+    { prefix = RouteHash.defaultPrefix
+    , address = app.address
+    , models = app.model
+    , delta2update = App.delta2update
+    , location2action = App.location2action
+    }

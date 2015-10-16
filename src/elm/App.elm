@@ -1,5 +1,6 @@
 module App where
 
+import Config exposing (githubClientId)
 import Effects exposing (Effects)
 import Html exposing (..)
 import Html.Attributes exposing (..)
